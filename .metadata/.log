@@ -468,3 +468,22 @@ java.net.ConnectException: Network is down
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-04-12 19:24:34.698 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/wangyifan/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/wangyifan/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-04-12 19:24:36.157
+!MESSAGE Unable to find feature.xml in directory: /Users/wangyifan/.p2/pool/features/com.android.ide.eclipse.adt.feature_23.0.7.2120684
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-04-12 19:24:36.191
+!MESSAGE Unable to access file "plugins/com.android.ide.eclipse.adt_23.0.7.2120684.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-04-12 19:24:36.192
+!MESSAGE Unable to access file "plugins/com.android.ide.eclipse.base_23.0.7.2120684.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-04-12 19:24:36.192
+!MESSAGE Unable to access file "plugins/com.android.ide.eclipse.ddms_23.0.7.2120684.jar!META-INF/MANIFEST.MF".
